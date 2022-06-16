@@ -107,7 +107,7 @@ a{
 }
 /*Altura definida para el Carousel manteniendo el aspecto de la imagen*/
 .carousel .carousel-item {
-  height: 900px;
+  height: 500px;
 }
 .carousel-item img {
     position: absolute;
