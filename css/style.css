@@ -615,3 +615,188 @@ background-color: #000;
 	text-align: center;
 
 }
+
+#tours{
+	background-color: #000;
+}
+
+#proximos{
+	background-color: #000;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+
+#tours h3{
+	font-family: 'helvetica compressed';
+	font-size: 30px;
+	color: #fff;
+	text-align: left;
+	letter-spacing: 1px;
+	margin-top: 40px;
+}
+
+#proximos h3{
+	font-family: 'helvetica compressed';
+	font-size: 30px;
+	color: #fff;
+	text-align: left;
+	letter-spacing: 1px;
+	margin-top: 40px;
+}
+
+#tours p{
+	font-family: 'helvetica light';
+	font-size: 20px;
+	color: #fff;
+	letter-spacing: 0.5px;
+	text-align: left;
+}
+
+#proximos p{
+	font-family: 'helvetica light';
+	font-size: 20px;
+	color: #fff;
+	letter-spacing: 0.5px;
+	text-align: left;
+}
+
+#contacto{
+	background-color: #000000;
+}
+#contacto h2{
+	margin-top: 120px;
+}
+
+.margen-contacto{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+.form-group{
+	border-radius: 0px;
+	font-size: 12px;
+	background-color: #000;
+	padding: 10px;
+	border: 1px;
+}
+
+.form-group{
+	border-radius: 0px;
+	font-size: 12px;
+	background-color: #000;
+	padding: 10px;
+	border: 1px;
+}
+#contacto h3{
+	font-family: "helvetica";
+	font-weight: 1000;
+	font-size: 20px;
+	color: #fff;
+	
+}
+#contacto .btn{
+	text-align: center;
+	background-color: white;
+	border-radius: 0px;
+	font-family: "helvetica";
+	font-weight: 1000;
+	font-size: 20px
+
+}
+#contacto p{
+	font-family: "helvetica";
+	color: #fff;
+	font-weight: 300px;
+}
+
+#entrevistas{
+	background-color: #000;
+	padding: 20px;
+	text-align: center;
+}
+
+#entrevistas h4{
+	font-family: 'helvetica compressed';
+	letter-spacing: 1px;
+	color: #fff;
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+#entrevistas p{
+	font-family: 'helvetica light';
+	letter-spacing: 1px;
+	font-size: 20px;
+	color: #fff;
+	text-align: center;
+}
+
+.tiny{
+	font-size: 23px;
+}
+
+#news{
+	background-color: #000;
+	padding: 40px;
+	padding-left: 300px;
+	padding-right: 200px;
+}
+
+#news2{
+	background-color: #000;
+	padding: 40px;
+	padding-left: 300px;
+	padding-right: 200px;
+}
+#news3{
+	background-color: #000;
+	padding: 40px;
+	padding-left: 300px;
+	padding-right: 200px;
+}
+
+#news h2{
+	font-family: 'helvetica compressed';
+	background: #FFFFFF;
+	font-size: 40px;
+    background-color: #fff;
+    color: #000;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1px;
+	margin-bottom: 50px;
+	padding: 5px;
+}
+#news h3{
+	font-family: 'helvetica compressed';
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	
+}
+
+#news2 h3{
+	font-family: 'helvetica compressed';
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	
+}
+
+#news3 h3{
+	font-family: 'helvetica compressed';
+	font-size: 30px;
+	color: #fff;
+	text-transform: uppercase;
+	text-align: center;
+	letter-spacing: 1px;
+	margin-top: 10px;
+	
+}

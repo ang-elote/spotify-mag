@@ -1,19 +1,25 @@
 <!doctype html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>Regístrate - Spotify Mag</title>
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-	<link href="css/bootstrap-custom.css" rel="stylesheet">	
-	<link href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" rel="stylesheet">	
-	<link rel="stylesheet" href="css/style.css">
-</head>
+<meta charset="utf-8">	
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Conctáctanos - Spotify Mag</title>	
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link href="css/bootstrap-custom.css" rel="stylesheet">	
+<link href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" rel="stylesheet">	
+<link rel="stylesheet" href="css/style.css">
 
 <!-- SEO -->
-<meta name="Description" content="Spotify Mag registro es una pagina web que permite a los usuarios registrarse en la revista virtual para estar al tanto de los artistas y música.">
-<meta name="Keywords" content="Spotify, spotify mag, pagina spotify mag, spotify revista, spotify revista virtual, revista virtual, spotify articulos spotify artistas, spotify noticias, spotify música, spotify mag registro, registro spotify revista">	
+<meta name="Description" content="La página de Spotify Mag para que te contactes con nosotros">
+<meta name="Keywords" content="Spotify, spotify mag, sitio spotify mag, spotify, contacto">		
+	
+	
+</head>
 
+	
+	
 <body>
+	
 	<header>
 		<div class="container">
 			 <a class="navbar-brand" href="index.html">		<img src="img/logo.png" alt="spotify mag logo" class="img-fluid" width="260px"></a>
@@ -53,10 +59,9 @@
 						  <li class="nav-item">
 							<a class="nav-link" href="#"><i class="las la-search"></i></a>
 						  </li>
-						  <li class="nav-item active">
+						  <li class="nav-item">
 							<a class="nav-link" href="registro.html"><i class="las la-user"></i></a>
-						  </li>	
-							
+						  </li>		
 						</ul>
 					  </div>
 					</nav>
@@ -66,30 +71,87 @@
 	
 	</header>
 	
-	<section id="registro">
-		<center>
-            <section class="div-titulo-registro">
-                <h2 id="Titulo-registro">CREAR CUENTA</h2>
-            </section>
-        </center>
-        <section class="form-center">
-            <form>
-                <label id="Texto-cuerpo">Nombre de usuario</label><br/>
-                <input id="input-registro"/><br/><br/>
-                <label id="Texto-cuerpo">Correo electrónico</label><br/>
-                <input id="input-registro"/><br/><br/>
-                <label id="Texto-cuerpo">Contraseña</label><br/>
-                <input id="input-registro"/><br/><br/>
-                <center>
-                    <button class="boton-registro">Regístrate</button><br><br>
-                    <a id="Texto-cuerpo" href=""><b>¿Ya tienes una cuenta?</b></a>
-                </center>
-            </form>
-        </section>
-	</section>
+	
+	<body>
+		<div id="contacto">
+		<div class="container">
+			<div class="row">
+				<article class="col-md-4 col-sm-12">
+				
+					<h2 class="titulos-albunes"><span>
+					Contáctate con <br> nosotros
+					</span></h2>
+				</article>
+				
+				<article class="col-md-4 col-sm-12">
+								
+					
+				<div class="margen-contacto">
+					<form name="contact" class="mt-0" method="post">
+					
+						<div class="form-group">
+							<h3>Tu nombre completo</h3>
+							<input type="text" name="Nombre" class="form-control" placeholder="Nombre">
+						</div>
+							
+						<div class="form-group mt-3">
+							<h3>E-mail</h3>
+							<input type="email" name="email" class="form-control" placeholder="Email">
+						</div>
+								
+						<div class="form-group mt-3">
+							<h3>Mensaje</h3>
+							<textarea name="message" class="form-control" rows="6" placeholder="Message"></textarea>
+						</div>
+						
+						<div class="form-group mt-4">
+							<button class="btn">Enviar</button>
+						</div>
+					
+					</form>
+				</div>
+					
+				</article>
+				
+				
+				
+					<article class="col-md-4 col-sm-12">
+						<div class="margen-contacto">
+							
+							<h3>Nuestro correo</h3>
+							<p>spotifymag@spotify.com</p>
+
+							<h3 class="mt-2">Ubicados en </h3>
+							<p>San Francisco, <br> California</p>
+							
+							<img src="img/fb-logo-blanco.png" alt="logo-blanco-facebook" class="img-fluid" width="38px">
+							<img src="img/tw-logo-blanco.png" alt="logo-blanco-twitter" class="img-fluid" width="38px">
+							<img src="img/ig-logo-blanco.png" alt="logo-blanco-instagram" class="img-fluid" width="38px">
+							<img src="img/tk-logo-blanco.png" alt="logo-blanco-tiktok" class="img-fluid" width="38px">
+							<img src="img/sp-logo-blanco.png" alt="logo-blanco-spotify" class="img-fluid" width="38px">
+
+						</div>
+					</article>
+				
+				
+			</div>
+		</div>				
+		</div>
+		
+		
+		<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
 	
 	
-<footer>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-GG7JZLGHGN"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GG7JZLGHGN');
+</script>
+		<footer>
 		<div class="container">
 			
 			<div class="spotify-logo-footer">
@@ -145,17 +207,9 @@
 			
 		</div>
 	</footer>
-	<script src="js/jquery.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	
-	<script async src="https://www.googletagmanager.com/gtag/js?id=G-GG7JZLGHGN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	</body>
 
-  gtag('config', 'G-GG7JZLGHGN');
-</script>
-</body>
+	
+		
 	
 </html>
